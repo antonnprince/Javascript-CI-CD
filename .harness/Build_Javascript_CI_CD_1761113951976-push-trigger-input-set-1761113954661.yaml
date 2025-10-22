@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_Javascript_CI_CD_1761113951976-push-trigger-input-set
+  identifier: Build_Javascript_CI_CD_1761113951976pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_Javascript_CI_CD_1761113951976
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
