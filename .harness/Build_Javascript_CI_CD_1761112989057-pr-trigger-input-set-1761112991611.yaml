@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_Javascript_CI_CD_1761112989057-pr-trigger-input-set
+  identifier: Build_Javascript_CI_CD_1761112989057prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_Javascript_CI_CD_1761112989057
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
